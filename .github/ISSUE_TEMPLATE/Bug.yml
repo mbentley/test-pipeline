@@ -50,7 +50,7 @@ body:
       label: How You're Launching the Container
       description: |
         Include your complete `docker run` or compose file to make analysis easier.
-    render: plain
+      render: plain
     validations:
       required: true
   - type: textarea
@@ -60,12 +60,10 @@ body:
       description: |
         Collect logs by using something similar to `docker logs omada-controller >& output.log` if needed and attach them or copy out the relevant portions of the error. When in doubt, do both. I can't help without logs!
       placeholder: |
-        ```
         logs
         go
         here
-        ```
-    render: plain
+      render: plain
     validations:
       required: true
   - type: textarea
