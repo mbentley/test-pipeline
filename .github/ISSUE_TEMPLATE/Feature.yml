@@ -1,5 +1,5 @@
 name: Feature Request
-description: For feature request related to this Docker image only.
+description: For feature requests related to this Docker image only.
 title: '[Feature]: '
 assignees:
   - mbentley
@@ -9,7 +9,7 @@ body:
       value: |
         ## Read Me First!
 
-        Thanks for using my image! Hopefully it's helpful to you. You are about to report a bug you found related to the packaging or function of this Docker image, not the Controller software itself. If you have a problem with the software that is not related to this Docker image, I would suggest you file an issue on the [TP-Link community forums](https://community.tp-link.com/en/business/forum/582).  If you're not sure if it is a problem with the Docker image or the software, feel free to file an issue here and I can assist you with determining where the problem lies.
+        Thanks for using my image! Hopefully it's helpful to you. You are about to file a feature request related to the packaging or function of this Docker image, not the Controller software itself. If you have a feature request for the software that is not related to this Docker image, file an issue on the [TP-Link community forums](https://community.tp-link.com/en/business/forum/582). If you're not sure if it is a feature request related to the Docker image or the software, file an issue here and I can assist in determining where the responsibility lies.
   - type: textarea
     id: feature-problem
     attributes:
@@ -31,6 +31,6 @@ body:
     attributes:
       label: Additional Context
       description: |
-        Add any other context about the problem here.
+        Add any other context about the feature here.
     validations:
       required: false
