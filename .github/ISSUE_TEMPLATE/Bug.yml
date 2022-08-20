@@ -1,7 +1,6 @@
 name: Bug Report
 description: Report a problem with this Docker image or the behavior of the Omada Controller software related to running inside of Docker.
 title: '[Bug]: '
-labels: ''
 assignees:
   - mbentley
 body:
