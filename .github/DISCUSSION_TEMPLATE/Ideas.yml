@@ -2,6 +2,7 @@ title: "[Q&A]: "
 labels: ["Question & Answer"]
 body:
   - type: markdown
+    id: first
     attributes:
       value: |
         Let's try something simple
